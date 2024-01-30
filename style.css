@@ -1,0 +1,107 @@
+* {
+  /* Reset the margin and padding for all the elements */
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 0px;
+}
+
+main {
+  background: #EFEFEF;
+  overflow: hidden;
+  margin: 0;
+
+}
+
+footer {
+  margin-top: -50px;
+  padding: 0px;
+  background: #355834;
+}
+
+.bodyHeader {
+  margin-left: 7%;
+  padding: 0.5em;
+}
+
+p {
+  margin: 8%;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  max-height: 20em;
+}
+
+#homeNews {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  margin: 3em 0;
+}
+
+.readMorelink {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  font-size: 1.25em;
+}
+
+/* ------- NAVBAR ------- */
+
+.navbar li {
+  font-size: clamp(1rem, 2.5vw, 2.2rem);
+}
+
+.navbar {
+  background: #0C2340;
+  padding: 20px;
+  max-height: 8em;
+  min-height: 3em;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 img {
+  min-width: 2em;
+  max-width: 2em;
+  display: grid;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li>a {
+  color: white;
+  padding: 1 rem;
+  margin: 0 1rem;
+
+}
+
+.navbar a:hover {
+  color: #112d4e;
+  border-bottom: 3px solid white;
+}
