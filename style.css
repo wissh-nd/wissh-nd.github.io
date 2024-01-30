@@ -105,3 +105,41 @@ h1 img {
   color: #112d4e;
   border-bottom: 3px solid white;
 }
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.blog-post {
+  background-color: #0C2340;
+  color: #E8E8E8;
+  padding: 10px; /* Adjust the padding as needed */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.blog-post:hover {
+  transform: scale(1.1);
+}
+
+.blog-post h2 {
+  margin: 5px 0; /* Add margin between date and title */
+}
+
+.post-date {
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.post-summary {
+  margin-top: 5px; /* Add margin between title and summary */
+}
+
