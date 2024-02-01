@@ -46,4 +46,19 @@
     font-size: 10pt;
   }
 
- 
+  .col-md-4{
+    color:#0C2340;
+
+  }
+  #button{
+    background-color:#C14953;
+  }
+  footer{
+    background-color: #0C2340;
+  }
+ #footertitle{
+  color:#FFBFB7;
+ }
+ #hi{
+  color:#C14953;
+ }
