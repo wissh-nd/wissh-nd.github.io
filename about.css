@@ -1,0 +1,49 @@
+.navbar li {
+    font-size: clamp(1rem, 2.5vw, 2.2rem);
+  }
+  
+  .navbar {
+    background: #0C2340;
+    padding: 20px;
+    max-height: 8em;
+    min-height: 3em;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 img {
+    min-width: 2em;
+    max-width: 2em;
+    display: grid;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar li>a {
+    color: white;
+    padding: 1 rem;
+    margin: 0 1rem;
+  
+  }
+  
+  .navbar a:hover {
+    color: #112d4e;
+    border-bottom: 3px solid white;
+  }
+  * {
+    box-sizing: border-box;
+
+  }
+  
+  p{
+    font-size: 10pt;
+  }
+
+ 
