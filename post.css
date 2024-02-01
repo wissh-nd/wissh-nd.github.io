@@ -13,6 +13,7 @@
   
   body {
     padding-top: 56px;
+    margin: 0;
   }
   
   main {
@@ -78,7 +79,6 @@
     padding: 10px;
     overflow: hidden;
     position: fixed;
-    top: 0;
     width: 100%;
     z-index: 1000;
     margin-bottom: 1cm;
