@@ -11,10 +11,6 @@
     margin: 0;
   }
   
-  body {
-    padding-top: 56px;
-  }
-  
   main {
     background: #EFEFEF;
     overflow: hidden;
