@@ -1,5 +1,4 @@
 * {
-    /* Reset the margin and padding for all the elements */
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -13,7 +12,7 @@
   }
   
   body {
-    padding-top: 56px; 
+    padding-top: 56px;
   }
   
   main {
@@ -25,12 +24,14 @@
   footer {
     margin-top: 50px;
     padding: 0;
-    background: #355834;
+    background: #0C2340; /* Blue background color from navbar */
+    color: #FFFFFF; /* White text color for visibility */
   }
   
   .bodyHeader {
     margin-left: 7%;
     padding: 0.5em;
+    color: #1C1F33; /* Dark blue-gray text color */
   }
   
   p {
@@ -79,17 +80,17 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; /* navbar above other elements */
+    z-index: 1000;
     margin-bottom: 1cm;
   }
   
   .navbar img {
-    max-height: 50px; /* max-height for the logo */
+    max-height: 50px;
   }
   
   .navbar ul {
     display: flex;
-    list-style: none; 
+    list-style: none;
   }
   
   .navbar li {
@@ -140,6 +141,7 @@
   .post-date {
     font-size: 0.8em;
     margin-top: 5px;
+    color: #94BFBE;
   }
   
   .post-summary {
