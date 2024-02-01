@@ -13,7 +13,6 @@
   
   body {
     padding-top: 56px;
-    margin: 0;
   }
   
   main {
@@ -25,14 +24,14 @@
   footer {
     margin-top: 50px;
     padding: 0;
-    background: #0C2340; /* Blue background color from navbar */
-    color: #FFFFFF; /* White text color for visibility */
+    background: #0C2340; 
+    color: #FFFFFF; 
   }
   
   .bodyHeader {
     margin-left: 7%;
     padding: 0.5em;
-    color: #1C1F33; /* Dark blue-gray text color */
+    color: #1C1F33; 
   }
   
   p {
