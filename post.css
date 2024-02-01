@@ -1,29 +1,30 @@
 * {
     /* Reset the margin and padding for all the elements */
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  html {
+  html,
+  body {
     height: 100%;
     width: 100%;
+    margin: 0;
   }
   
   body {
-    padding: 0px;
+    padding-top: 56px; 
   }
   
   main {
     background: #EFEFEF;
     overflow: hidden;
     margin: 0;
-  
   }
   
   footer {
-    margin-top: -50px;
-    padding: 0px;
+    margin-top: 50px;
+    padding: 0;
     background: #355834;
   }
   
@@ -44,7 +45,7 @@
     flex-flow: row;
     align-items: center;
     justify-content: center;
-    margin: 0px;
+    margin: 0;
     max-height: 20em;
   }
   
@@ -73,33 +74,33 @@
   
   .navbar {
     background: #0C2340;
-    padding: 20px;
-    max-height: 8em;
-    min-height: 3em;
+    padding: 10px;
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    z-index: 1000; /* navbar above other elements */
+    margin-bottom: 1cm;
   }
   
-  h1 img {
-    min-width: 2em;
-    max-width: 2em;
-    display: grid;
+  .navbar img {
+    max-height: 50px; /* max-height for the logo */
   }
   
   .navbar ul {
     display: flex;
+    list-style: none; 
+  }
+  
+  .navbar li {
+    margin: 0.3rem;
   }
   
   .navbar li>a {
     color: white;
-    padding: 1 rem;
-    margin: 0 1rem;
-  
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
   }
   
   .navbar a:hover {
@@ -107,32 +108,33 @@
     border-bottom: 3px solid white;
   }
   
+  /* Blog Posts */
+  
   .blog-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top: 30px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding: 30px;
   }
   
   .blog-post {
     background-color: #0C2340;
     color: #E8E8E8;
-    padding: 10px; /* Adjust the padding as needed */
+    padding: 20px;
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.2s;
     width: 100%;
     box-sizing: border-box;
+    margin: 0.1cm;
   }
   
   .blog-post:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   
   .blog-post h2 {
-    margin: 5px 0; /* Add margin between date and title */
+    margin: 5px 0;
   }
   
   .post-date {
@@ -141,7 +143,6 @@
   }
   
   .post-summary {
-    margin-top: 5px; /* Add margin between title and summary */
+    margin-top: 10px;
   }
-  
   
