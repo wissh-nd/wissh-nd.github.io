@@ -53,8 +53,11 @@
   #button{
     background-color:#C14953;
   }
-  footer{
-    background-color: #0C2340;
+  footer {
+    margin-top: 50px;
+    padding: 0;
+    background: #0C2340; 
+    color: #FFFFFF; 
   }
  #footertitle{
   color:#FFBFB7;

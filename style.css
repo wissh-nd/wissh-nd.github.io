@@ -21,9 +21,10 @@ main {
 }
 
 footer {
-  margin-top: -50px;
-  padding: 0px;
-  background: #355834;
+  margin-top: 50px;
+  padding: 0;
+  background: #0C2340; 
+  color: #FFFFFF; 
 }
 
 .bodyHeader {
