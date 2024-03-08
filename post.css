@@ -36,6 +36,12 @@
     width: 50%;
   }
   
+  h1, h2, h3{
+    margin: 8%;
+    /* padding-bottom: 0.5em; */
+    padding-left: 0.5em;
+  }
+
   p {
     margin: 8%;
     padding-bottom: 0.5em;
