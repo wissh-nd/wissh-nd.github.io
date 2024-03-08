@@ -34,10 +34,11 @@
     display: block;
     margin: auto; 
     width: 50%;
+    padding: 1.5em;
   }
   
   h1, h2, h3{
-    margin: 0 10%;
+    margin: 0 8%;
     padding-bottom: 0.5em;
     padding-left: 0.5em;
   }
