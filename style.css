@@ -143,4 +143,8 @@ h1 img {
 .post-summary {
   margin-top: 5px; /* Add margin between title and summary */
 }
+.logo {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+}
 
